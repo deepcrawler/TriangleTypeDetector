@@ -12,7 +12,7 @@ We can simplify above equations as the following:
 
 |a - b | < c < a + b
 
-If we consider 8 byte integer for storing length of triangle sides, when one of the side has a length greater or equal to 31 ^ 2, memory overflow will be happen. For guarding from this situation we should rewrite equation as the following:
+If we consider 8 byte integer for storing length of triangle sides, when one of the side has a length equal to 31 ^ 2, memory overflow will be happen. For guarding from this situation we should rewrite equation as the following:
 
 |(long)a - b| < c < (long)a + c
 
