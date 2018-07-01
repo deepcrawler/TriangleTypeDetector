@@ -3,7 +3,9 @@
 For a valid triangle with length of sides a, b and c, three equation must be passed:
 
 a < b + c
+
 c < a + b
+
 b < c + a
 
 We can simplify above equations as the following:
